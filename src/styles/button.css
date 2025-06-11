@@ -1,0 +1,48 @@
+button {
+  border-radius: 8px;
+
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #cc1e2c;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-primary.btn-solid{
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary.btn-solid{
+    background-color: green;
+    color: white;
+}
+
+.btn-primary.btn-outline{
+  
+    border-color: blue;
+    color: black;
+}
+
+
+
+.btn-secondary.btn-outline{
+
+    border-color: green;
+    color: black;
+}
+
+.button-container{
+  display: flex;
+  gap: 24px;
+}
